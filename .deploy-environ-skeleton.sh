@@ -1,0 +1,7 @@
+export AWS_ACCESS_KEY=
+export AWS_SECRET_ACCESS_KEY=
+export KEYPAIR_NAME=
+export AMI_ID=
+export SECURITY_GROUPS=
+export USER_DATA=
+export PUBLIC_IP=

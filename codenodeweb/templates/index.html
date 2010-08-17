@@ -1,0 +1,111 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="robots" content="follow,index" />
+    <meta name="description" content="Interactively program online, in Python and Sage." />
+    <title>codenode - Interactive Online Programming Notebook</title>
+    <link rel="stylesheet" href="static/css/blueprint/screen.css" type="text/css" media="screen, projection">
+    <!--[if IE]><link rel="stylesheet" href="static/css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"/>
+</head>
+<body>
+
+    <div id='main'>
+      <div id='maincnt'>
+       <h1>Program interactively, in <a href='http://www.python.org'>Python</a> and <a href='http://www.sagemath.org'>Sage</a>, in your web browser.</h1>
+        <p id="scexplain">Screenshots of some of the main interfaces of Codenode. <i>Click for detail:</i></p>
+       <div id="demo_watch">
+        <div class="span-8 pull-2">
+         <a id="demovid" href='static/img/screenshots/bookshelf-large.png'><img src="static/img/screenshots/bookshelf.png" alt="Codenode Bookshelf"/></a>
+        <p><i>The Bookshelf:</i> Manage many Notebooks</p>
+        </div>
+        <div class="span-8 ">
+         <a id="demovid" href='static/img/screenshots/notebook-large.png'><img src="static/img/screenshots/notebook.png" alt="Codenode Notebook"/></a>
+        <p><i>The Notebook:</i> Write and run code interactively</p>
+        </div>
+        <div class="span-8">
+         <a id="demovid" href='static/img/screenshots/admin-large.png'><img src="static/img/screenshots/admin.png" alt="Codenode Admin Interface"/></a>
+        <p><i>Admin Interface:</i> Manage Users, Groups, and all Data</p>
+        </div>
+
+       </div>
+     </div>
+    </div>
+
+
+<div class='container'>
+
+  <div id='top' class='span-24'>
+
+    <div id='logo' class='span-10'>
+      <a href="/"><img class='banner' src="static/img/codenode-full-darkbg.png"></img></a>
+    </div>
+
+    <div id='nav' class='span-14 last'>
+      <ul>
+        <li><a style="background-color:#FF6E2F" href="http://live.codenode.org/">Try Codenode now!</a></li>
+        <li><a href="/docs">Documentation</a></li>
+        <li><a href="http://github.com/codenode/codenode/tree/master">Development</a></li>
+        <li><a href="http://groups.google.com/group/codenode-devel">Mailing List</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div id="content">
+    <div id='feature' class='span-8 details'>
+        <h3>Features</h3>
+
+        <ul>
+            <li>Browser based interface to <a href='http://www.python.org'>Python</a> and <a href='http://www.sagemath.org'>Sage</a>.</li>
+            <li>Notebook style interface to write and run code, create plots, and organize your work into sections.</li> 
+            <li>Manage many notebooks - add, delete, sort, and create folders.</li>
+            <li>Save completed notebooks to share with others.</li>
+
+            <li>Future support for <a href='http://www.ruby-lang.org'>Ruby</a> and <a href='http://www.r-project.org'>R</a>.</li>
+        </ul>
+    </div>
+
+    <div id='downloa' class='span-8 details'>
+        <h3>Install</h3>
+        <h4 style='background-color:#F0F0F0; padding-bottom:4px;'><pre>easy_install codenode</pre></h4>
+
+        <p><a href="http://github.com/codenode/codenode/downloads">Download the latest tarball here</a></p>
+        <p><a href="http://github.com/codenode/codenode/tree/master">Get the latest development code here on Github</a></p>
+    </div>
+
+    <div id='suppor' class='span-8 last details'>
+        <h3>Development</h3>
+        Development mailing list:  
+        <a target="_blank" href="http://groups.google.com/group/codenode-devel">codenode-devel</a>
+
+        <p class='item bi'><code>codenode</code> is in <span style="font-style:italic">beta stage development.</span> Improvements are happening everyday, so in the short term, much of the software will change for the better.<br/>
+        <code>codenode</code> is free software, licensed under the <a href="http://www.opensource.org/licenses/bsd-license.php">BSD</a>.</p>
+    </div>
+ </div>
+
+</div><br/>
+    <div id="footer" class="footer">
+        codenode &mdash; created with good stuff: 
+        <a href="http://www.twistedmatrix.com">Twisted</a>,
+        <a href="http://www.djangoproject.org">Django</a> &
+        <a href="http://www.jquery.com">jQuery</a>
+        &mdash; design by <a href="http://roxanne-lee.com">Roxanne Lee</a>
+    </div>
+
+    <div id="democontainer" class="dialogWindow"></div>
+
+ <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+     try {
+        var pageTracker = _gat._getTracker("UA-2843478-6");
+        pageTracker._setDomainName(".codenode.org");
+        pageTracker._trackPageview();
+     } catch(err) {}
+    </script>
+</body>
+</html>
